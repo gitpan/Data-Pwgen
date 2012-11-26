@@ -14,11 +14,13 @@ meta-spec:
   version: 1.4
 name: Data-Pwgen
 requires:
+  Exporter: 0
+  parent: 0
   perl: 5.008
   strict: 0
   warnings: 0
 resources:
   bugtracker: https://github.com/gittex/Data-Pwgen/issues
   repository: git://github.com/gittex/Data-Pwgen.git
-version: 0.12
+version: 0.14
 x_authority: cpan:TEX
